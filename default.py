@@ -11,7 +11,7 @@ def add_video_item(url, infolabels, img=''):
     xbmcplugin.addDirectoryItem(plugin_handle, url, listitem, isFolder=False)
 
 # IPTV
-add_video_item('http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/index_3_av-p.m3u8',{ 'title': 'The Shopping Channel HD'}, '%s/tsc.png'% _icondir)
+add_video_item('http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/index_3_av-p.m3u8',{ 'title': 'Shopping Channel HD'}, '%s/tsc.png'% _icondir)
 add_video_item('http://llnw.live.simplestream.com/coder5/coder.channels.channel2/hls/2/playlist.m3u8',{ 'title': 'truTVtruTV'}, '%s/tsc.png'% _icondir)
 add_video_item('http://esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1800.m3u8',{ 'title': 'Eurosports'}, '%s/tsc.png'% _icondir)
 
